@@ -1,0 +1,7 @@
+{
+    "appService.zipIgnorePattern": [
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/2503999d-0b01-423e-89bc-920abedd4a01/resourceGroups/demoaks03-rg/providers/Microsoft.Web/sites/demoaks03",
+    "appService.deploySubpath": "dist\\angularapp"
+}
