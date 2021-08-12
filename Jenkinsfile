@@ -2,11 +2,10 @@ pipeline {
     agent any
 
     stages {
-        stage('Incial'){
+        stage('Get Source'){
             steps{
-                echo 'Teste de Pipeline'
+                git url: 'https://github.com/gumalheiros/AngularAppGitHub.git', branch:'dev'
             }
-
         }
     }
 }
