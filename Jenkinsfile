@@ -20,7 +20,7 @@ pipeline {
                 // If Maven was able to run the tests, even if some of the test
                 // failed, record the test results and archive the zip file.
                 success {
-                    archiveArtifacts 'dist/*.*'
+                    zip zipFile: 'drop.zip', archive: true, dir: 'dist'
                 }
             }
         }
