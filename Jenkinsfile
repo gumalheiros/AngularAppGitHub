@@ -10,7 +10,7 @@ pipeline {
                 git url: 'https://github.com/gumalheiros/AngularAppGitHub.git', branch:'dev'
 
                 // Instala o NPM.
-                sh "npm Install"
+                sh "npm install"
                 
                 // Instala o NPM.
                 sh "npm run build"
